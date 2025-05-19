@@ -64,18 +64,6 @@ nav h1 {
   margin-bottom: 1.5rem;
 }
 
-.btn {
-  background: #007acc;
-  color: white;
-  padding: 0.7rem 1.2rem;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  background: #005fa3;
-}
-
 <style>
   .btn-grad {
     background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
