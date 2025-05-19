@@ -21,7 +21,6 @@ header {
 
 nav {
   display: flex;
-  background-image: linear-gradient(to right, #480ca8, #3a0ca3);
   justify-content: space-between;
   align-items: center;
   color: #fff;
