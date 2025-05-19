@@ -24,7 +24,7 @@ nav {
   align-items: center;
   max-width: 1000px;
   margin: auto;
-  background-color: #ff85a1; /* ← pink! */
+  background-color: #fae0e4; /* ← pink! */
   padding: 1rem; /* Add padding so content doesn’t touch edges */
   border-radius: 10px; /* Optional: adds rounded corners */
 }
