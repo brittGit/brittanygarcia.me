@@ -24,6 +24,7 @@ nav {
   background-image: linear-gradient(to right, #480ca8, #3a0ca3);
   justify-content: space-between;
   align-items: center;
+  color: #fff;
   max-width: 1000px;
   margin: auto;
 }
