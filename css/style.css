@@ -72,10 +72,6 @@ nav h1 {
   border-radius: 5px;
 }
 
-.btn:hover {
-  background: #005fa3;
-}
-
   .btn-grad {
     background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
     margin: 10px;
