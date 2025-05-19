@@ -84,7 +84,8 @@ nav h1 {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
+    font-weight: bold;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: inline-block;
