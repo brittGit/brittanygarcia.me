@@ -86,6 +86,16 @@ nav h1 {
     text-decoration: none;
   }
 
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid #fff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  width: 0; /* Start at 0 width */
+  animation: typing 3s steps(30, end) forwards, blink-caret 0.75s step-end 4;
+}
+
 footer {
   text-align: center;
   margin-top: 4rem;
