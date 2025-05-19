@@ -87,6 +87,7 @@ nav h1 {
   }
 
 .typewriter {
+  display: inline-block;
   overflow: hidden;
   border-right: 0.15em solid #fff;
   white-space: nowrap;
