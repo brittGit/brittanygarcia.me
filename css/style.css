@@ -65,46 +65,47 @@ nav h1 {
   margin-bottom: 1.5rem;
 }
 
-  .btn-grad {
-    background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: inline-block;
-  }
+.btn-grad {
+  background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+}
 
-  .btn-grad:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
-  }
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
 
-  .btn-grad1 {
-    background-color: #0072b1;
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-    display: inline-block;
-  }
+.btn-linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+  margin: 10px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+}
 
-  .btn-grad1:hover {
-    background-color: #0e577f;
-    color: #fff;
-    text-decoration: none;
-  }
+.btn-linkedin:hover {
+  background-color: #005f8d;
+  text-decoration: none;
+}
 
 .typewriter {
   display: inline-block;
