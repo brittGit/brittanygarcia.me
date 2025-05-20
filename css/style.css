@@ -65,6 +65,10 @@ nav h1 {
   margin-bottom: 1.5rem;
 }
 
+.button-group {
+  text-align: center;
+}
+
 .btn-grad {
   background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
   margin: 10px;
