@@ -94,14 +94,12 @@ nav h1 {
   margin: 0 auto;
   letter-spacing: 0.15em;
   width: 0; /* Required for animation to start from 0 */
-  /* animation: typing 3s steps(25, end) forwards, blink-caret 0.75s step-end 4; */
-   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typing 3s steps(25, end) forwards, blink-caret 0.75s step-end 4;
 }
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100%; }
+  to { width: 24ch; }
 }
 
 @keyframes blink-caret {
