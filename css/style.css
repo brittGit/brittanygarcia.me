@@ -99,14 +99,13 @@ nav h1 {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 20ch }
 }
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white }
 }
-
 
 footer {
   text-align: center;
