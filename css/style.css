@@ -71,7 +71,7 @@ nav h1 {
 
 .btn-grad {
   background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
-  margin: 10px;
+  margin: 10px auto;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -82,8 +82,8 @@ nav h1 {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
-  width: fit-content;
-  text-align: center;  
+  width: fit-content;     /* Ensures width shrinks to button text */
+  text-align: center;     /* Ensures text is centered in the button */
 }
 
 .btn-grad:hover {
