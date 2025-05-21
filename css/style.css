@@ -82,6 +82,7 @@ nav h1 {
   border-radius: 10px;
   display: block;
   width: 300px;     /* Ensures width shrinks to button text */
+  margin-bottom: 20px;
 }
 
 .btn-grad:hover {
