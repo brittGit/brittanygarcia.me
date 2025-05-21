@@ -102,7 +102,7 @@ nav h1 {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
-  width: fit-content;
+  width: 300px;
 }
 
 .btn-linkedin:hover {
