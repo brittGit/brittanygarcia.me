@@ -82,8 +82,7 @@ nav h1 {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
-  width: fit-content;     /* Ensures width shrinks to button text */
-  text-align: center;     /* Ensures text is centered in the button */
+  width: 300px;     /* Ensures width shrinks to button text */
 }
 
 .btn-grad:hover {
