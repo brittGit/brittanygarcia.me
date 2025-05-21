@@ -1,0 +1,11 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.wait": 200,
+  "liveServer.settings.CustomBrowser": "firefox", // Or "chrome", "edge", etc.
+  "liveServer.settings.ignoreFiles": [
+    "**/*.scss",
+    "**/*.ts"
+  ],
+  "liveServer.settings.host": "127.0.0.1"
+}

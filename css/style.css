@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #231942;
+  padding: 0 1rem;
+}
+
+header {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f72585; /* pink/purple, or use #f7ff00 for neon pop */
+}
+
+.hero {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* index.html */
+
+.button-group {
+  text-align: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
+  margin: 10px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px #ffdb3b;
+  border-radius: 10px;
+  display: block;
+  width: 250px;     /* Ensures width shrinks to button text */
+  margin-bottom: 20px;  /* Buffer at bottom of button */
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  text-decoration: none;
+}
+
+.btn-linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+  margin: 10px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px #2f7aa3;
+  border-radius: 10px;
+  display: block;
+  width: 250px;
+}
+
+.btn-linkedin:hover {
+  background-color: #005f8d;
+  text-decoration: none;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid #fff;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  width: 0; /* Required for animation to start from 0 */
+  animation: typing 3s steps(25, end) forwards, blink-caret 0.75s step-end 4;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 24ch; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+/* index.html end */
+
+/* resume.html */
+
+.resume {
+  max-width: 850px;       /* Letter-sized width */
+  margin: 2rem auto;      /* Centered with top/bottom spacing */
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.resume h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.resume ul {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  list-style: disc;
+}
+
+.resume p,
+.resume li {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+/* email color change */
+.email-link {
+  color: #2600ff !important;          /* Makes the email text white */
+  text-decoration: none;  /* Optional: removes underline */
+}
+
+.email-link:hover {
+  text-decoration: underline; /* Optional: underline on hover for clarity */
+}
+
+/* resume download button */
+.btn-download {
+  background-color: #3a0ca3;
+  color: white;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px auto;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #240046;
+}
+
+/* resume.html end */
+
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #999;
+}
