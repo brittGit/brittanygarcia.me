@@ -72,7 +72,7 @@ nav h1 {
 .btn-grad {
   background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
   margin: 10px auto;
-  padding: 40px 45px;
+  padding: 30px 45px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -98,7 +98,7 @@ nav h1 {
   transition: background-color 0.3s ease;
   color: white;
   font-weight: bold;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 20px #72ddf7;
   border-radius: 10px;
   display: block;
   width: 300px;
