@@ -10,6 +10,7 @@ body {
   color: #fff;
   background-color: #231942;
   padding: 0 1rem;
+  overflow-x:hidden;
 }
 
 /* for mobile */
@@ -74,6 +75,15 @@ nav h1 {
 }
 
 
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+
 /* index.html */
 
 .button-group {
@@ -121,15 +131,24 @@ nav h1 {
   text-decoration: none;
 }
 
+/* typewriter */
+.typewriter-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 100%;
+}
+
 .typewriter {
   display: inline-block;
   overflow: hidden;
   border-right: 0.15em solid #fff;
   white-space: nowrap;
-  margin: 0 auto;
   letter-spacing: 0.15em;
-  width: 0; /* Required for animation to start from 0 */
-  animation: typing 3s steps(25, end) forwards, blink-caret 0.75s step-end 4;
+  box-sizing: border-box;
+  width: 0;
+  max-width: 100%;
+  animation: typing 3s steps(24, end) forwards, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -141,6 +160,53 @@ nav h1 {
   from, to { border-color: transparent }
   50% { border-color: white }
 }
+/* for phone text adjustment */
+@media (max-width: 400px) {
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 20ch }  /* Shrink typing width slightly on smaller phones */
+  }
+}
+
+/* typewriter end*/
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn-grad,
+  .btn-linkedin {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+  /* mobile styles end */
 
 /* index.html end */
 
@@ -205,10 +271,3 @@ nav h1 {
 
 /* resume.html end */
 
-footer {
-  text-align: center;
-  margin-top: 4rem;
-  padding: 2rem 0;
-  font-size: 0.9rem;
-  color: #999;
-}
