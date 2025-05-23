@@ -12,6 +12,14 @@ body {
   padding: 0 1rem;
 }
 
+/* for mobile */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+/* end for mobile */
+
 header {
   padding: 1rem 0;
   margin-bottom: 2rem;
@@ -64,6 +72,7 @@ nav h1 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
+
 
 /* index.html */
 
