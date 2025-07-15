@@ -90,9 +90,14 @@ footer {
   text-align: center;
 }
 
+.button-group a {
+  display: block;
+  width: 250px;
+  margin: 0 auto 20px; /* consistent spacing below each button */
+}
+
 .btn-grad {
   background-image: linear-gradient(to right, #f7ff00 0%, #db36a4 51%, #f7ff00 100%);
-  margin: 10px auto;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -101,9 +106,6 @@ footer {
   font-weight: bold;
   box-shadow: 0 0 20px #ffdb3b;
   border-radius: 10px;
-  display: block;
-  width: 250px;     /* Ensures width shrinks to button text */
-  margin-bottom: 20px;  /* Buffer at bottom of button */
 }
 
 .btn-grad:hover {
@@ -113,7 +115,6 @@ footer {
 
 .btn-linkedin {
   background-color: #0077b5; /* LinkedIn blue */
-  margin: 10px auto;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -122,12 +123,51 @@ footer {
   font-weight: bold;
   box-shadow: 0 0 20px #2f7aa3;
   border-radius: 10px;
-  display: block;
-  width: 250px;
 }
 
 .btn-linkedin:hover {
   background-color: #005f8d;
+  text-decoration: none;
+}
+
+.btn-youtube {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 15px 45px 15px 70px; /* left padding for icon */
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #b30000;
+  position: relative;
+  transition: background-color 0.3s ease;
+  border: none;
+  outline: none;
+  overflow: visible;
+}
+
+.btn-youtube span {
+  position: relative;
+  z-index: 2; /* ensures text is above background, but below the arrow */
+}
+
+.btn-youtube::before {
+  content: '';
+  position: absolute;
+  left: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 16px solid #ffffff;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.btn-youtube:hover {
+  background-color: #cc0000;
   text-decoration: none;
 }
 
